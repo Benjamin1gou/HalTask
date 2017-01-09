@@ -7,6 +7,7 @@ package local.hal.st32.android.itarticlecollection40024;
 import android.app.Activity;
 import android.os.Bundle;
 import android.support.v7.app.AlertDialog;
+import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
@@ -14,11 +15,14 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 
-public class ArticleAddActivity extends Activity {
+public class ArticleAddActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_article_add);
+
+        android.support.v7.app.ActionBar actionBar = getSupportActionBar();
+        actionBar.setDisplayHomeAsUpEnabled(true);
 
     }
 
