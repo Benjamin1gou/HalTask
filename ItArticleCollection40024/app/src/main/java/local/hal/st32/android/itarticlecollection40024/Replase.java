@@ -44,7 +44,7 @@ public class Replase {
 
             Map<String, String> map = new HashMap<String, String>();
             JSONObject rootJSON = new JSONObject(result);
-            JSONArray arrayJson = rootJSON.getJSONArray("date");
+            JSONArray arrayJson = rootJSON.getJSONArray("list");
             for (int i = 0; i < arrayJson.length(); i++) {
                 JSONObject data = arrayJson.getJSONObject(i);
                 map = new HashMap<String, String>();
