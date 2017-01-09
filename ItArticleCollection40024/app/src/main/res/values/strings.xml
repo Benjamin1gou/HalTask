@@ -1,13 +1,13 @@
 <resources>
     <string name="app_name">共有IT記事</string>
-    <string name="article_title">記事タイトル</string>
-    <string name="article_url">記事URL</string>
-    <string name="article_comment">記事コメント</string>
+    <string name="article_title">記事タイトル:</string>
+    <string name="article_url">記事URL:</string>
+    <string name="article_comment">記事コメント:</string>
     <string name="article_insert">登録</string>
 
-    <string name="id">ID</string>
-    <string name="student_id">学籍番号</string>
-    <string name="seat_no">出席番号</string>
-    <string name="student_name">名前</string>
-    <string name="create_at">作成日</string>
+    <string name="id">ID:</string>
+    <string name="student_id">学籍番号:</string>
+    <string name="seat_no">出席番号:</string>
+    <string name="student_name">名前:</string>
+    <string name="create_at">作成日:</string>
 </resources>
