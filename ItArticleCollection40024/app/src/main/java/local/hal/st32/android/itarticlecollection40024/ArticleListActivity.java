@@ -138,25 +138,22 @@ public class ArticleListActivity extends AppCompatActivity {
     private class listViewOnClickListener implements AdapterView.OnItemClickListener {
         @Override
         public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-//            ListView list = (ListView) parent;
-//            Cursor item = (Cursor) list.getItemAtPosition(position);
-//
-//            int idxId = item.getColumnIndex("_id");
-//            int idNo = item.getInt(idxId);
-//
-//            //遷移先の設定
-//            Intent intent = new Intent(ToDoListActivity.this, ToDoEditActivity.class);
-//
-//            //遷移先に送る値の格納
-//            intent.putExtra("mode", MODE_EDIT);
-//            intent.putExtra("idNo", idNo);
-//            SharedPreferences settings = getSharedPreferences(PREFS_NAME, MODE_PRIVATE);
-//            //リファレンスから値の取得
-//            int ketu = settings.getInt("ketu",0);
-//            intent.putExtra("ketu", ketu);
-//
-//            //移動処理
-//            startActivity(intent);
+            Map<String, String> intentDate = listDate.get(position);
+            //遷移先の設定
+            Intent intent = new Intent(ArticleListActivity.this, ArticleDetailActivity.class);
+
+            intent.putExtra("id",intentDate.get("id"));
+            intent.putExtra("title",intentDate.get("title"));
+            intent.putExtra("url",intentDate.get("url"));
+            intent.putExtra("comment",intentDate.get("comment"));
+            intent.putExtra("student_id",intentDate.get("student_id"));
+            intent.putExtra("seat_no",intentDate.get("seat_no"));
+            intent.putExtra("last_name",intentDate.get("last_name"));
+            intent.putExtra("first_name",intentDate.get("first_name"));
+            intent.putExtra("created_at",intentDate.get("created_at"));
+
+            //移動処理
+            startActivity(intent);
         }
     }
 
