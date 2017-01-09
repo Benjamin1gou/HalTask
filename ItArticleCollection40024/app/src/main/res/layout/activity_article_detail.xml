@@ -14,12 +14,14 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/id"/>
+            android:text="@string/id"
+            android:textSize="15sp"/>
         <TextView
-            android:id="@+id/id"
+            android:id="@+id/no"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text=""/>
+            android:text=""
+            android:textSize="15sp"/>
     </LinearLayout>
 
     <LinearLayout
@@ -30,12 +32,14 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/article_title"/>
+            android:text="@string/article_title"
+            android:textSize="15sp"/>
         <TextView
             android:id="@+id/title"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text=""/>
+            android:text=""
+            android:textSize="15sp"/>
     </LinearLayout>
 
     <LinearLayout
@@ -46,12 +50,16 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/article_url"/>
+            android:text="@string/article_url"
+            android:textSize="15sp"/>
         <TextView
             android:id="@+id/url"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text=""/>
+            android:text=""
+            android:onClick="intentWeb"
+            android:textSize="15sp"
+            android:textColor="#66f"/>
     </LinearLayout>
 
     <LinearLayout
@@ -62,12 +70,14 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/article_comment"/>
+            android:text="@string/article_comment"
+            android:textSize="15sp"/>
         <TextView
             android:id="@+id/comment"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text=""/>
+            android:text=""
+            android:textSize="15sp"/>
     </LinearLayout>
 
     <LinearLayout
@@ -78,12 +88,14 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/student_id"/>
+            android:text="@string/student_id"
+            android:textSize="15sp"/>
         <TextView
-            android:id="@+id/student_id"
+            android:id="@+id/studentId"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text=""/>
+            android:text=""
+            android:textSize="15sp"/>
     </LinearLayout>
 
     <LinearLayout
@@ -94,12 +106,14 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/seat_no"/>
+            android:text="@string/seat_no"
+            android:textSize="15sp"/>
         <TextView
             android:id="@+id/seatNo"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text=""/>
+            android:text=""
+            android:textSize="15sp"/>
     </LinearLayout>
 
     <LinearLayout
@@ -110,12 +124,14 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/student_name"/>
+            android:text="@string/student_name"
+            android:textSize="15sp"/>
         <TextView
             android:id="@+id/name"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text=""/>
+            android:text=""
+            android:textSize="15sp"/>
     </LinearLayout>
 
     <LinearLayout
@@ -126,12 +142,14 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/create_at"/>
+            android:text="@string/create_at"
+            android:textSize="15sp"/>
         <TextView
             android:id="@+id/createAt"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text=""/>
+            android:text=""
+            android:textSize="15sp"/>
     </LinearLayout>
 
 
