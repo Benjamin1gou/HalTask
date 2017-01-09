@@ -1,3 +1,7 @@
 <resources>
-    <string name="app_name">ItArticleCollection40024</string>
+    <string name="app_name">共有IT記事</string>
+    <string name="article_title">記事タイトル</string>
+    <string name="article_url">記事URL</string>
+    <string name="article_comment">記事コメント</string>
+    <string name="article_insert">登録</string>
 </resources>
