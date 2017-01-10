@@ -1,12 +1,16 @@
 package local.hal.st32.android.itarticlecollection40024;
 
-import android.app.Activity;
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
+import android.view.View;
 import android.widget.TextView;
 
-import org.w3c.dom.Text;
+
+import java.io.UnsupportedEncodingException;
+import java.net.URLEncoder;
 
 /**
  * Created by Tester on 2017/01/10.
@@ -47,6 +51,20 @@ public class ArticleDetailActivity extends AppCompatActivity {
         tvName.setText(intent.getStringExtra("last_name")+ " "+ intent.getStringExtra("first_name"));
         tvCreatedAt.setText(intent.getStringExtra("created_at"));
     }
+
+    public void intentWeb(View view){
+        try{
+            TextView url = (TextView)findViewById(R.id.url);
+            String strUrl = url.getText().toString();
+            strUrl = URLEncoder.encode(strUrl, "UTF-8");
+            Uri uri = Uri.parse(strUrl);
+            Intent intent = new Intent(Intent.ACTION_VIEW, uri);
+            startActivity(intent);
+        }catch (UnsupportedEncodingException ex){
+            Log.e("MapSearchActivity", "keyword変換失敗", ex);
+        }
+    }
+
 
 
 }
