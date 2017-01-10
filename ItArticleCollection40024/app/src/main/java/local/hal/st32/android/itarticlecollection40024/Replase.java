@@ -72,8 +72,24 @@ public class Replase {
             }
 
         } catch (JSONException ex) {
+            Log.d(DEBUG_TAG, "JSON解析失敗", ex);
+        }
+        return map;
+    }
+
+    public Map<String, String> oneColmunJson(String result){
+        Map<String, String> map = new HashMap<String, String>();
+        try{
+            JSONObject rootJSON = new JSONObject(result);
+            for (int x = 0; x < requestId.size(); x++) {
+                map.put(requestId.get(x), rootJSON.getString(requestId.get(x)));
+                Log.d("map", requestId.get(x) + ":" + rootJSON.getString(requestId.get(x)));
+            }
+
+        }catch (JSONException ex) {
             Log.e(DEBUG_TAG, "JSON解析失敗", ex);
         }
+
         return map;
     }
 }
