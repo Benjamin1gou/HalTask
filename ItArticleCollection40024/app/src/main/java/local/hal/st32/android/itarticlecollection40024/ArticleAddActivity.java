@@ -133,7 +133,7 @@ public class ArticleAddActivity extends AppCompatActivity {
             previewDate = re.oneColmunJson(result);
             Log.e("", ""+previewDate);
 
-            if(previewDate.get("status") == "1"){
+            if(previewDate.get("status").equals("1")){
                 finish();
             }else{
                 TextView err = (TextView)findViewById(R.id.errMS);
