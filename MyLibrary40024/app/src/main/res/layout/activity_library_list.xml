@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android ="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows = "true">
+
+
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/listView"
+        android:layout_alignParentTop="true"
+        android:layout_above="@+id/button"></ListView>
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fabTextColor"
+        android:onClick="onNewButtonClick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:src="@android:drawable/ic_menu_add"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="5dp"
+        />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fabWashed"
+        android:onClick="onWashedClick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:src="@android:drawable/ic_menu_delete"
+        android:layout_marginRight="70dp"
+        android:layout_marginBottom="5dp"
+        />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fabKeepIn"
+        android:onClick="onKeepInClick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:src="@android:drawable/ic_menu_rotate"
+        android:layout_marginRight="140dp"
+        android:layout_marginBottom="5dp"
+        />
+
+
+</android.support.design.widget.CoordinatorLayout>

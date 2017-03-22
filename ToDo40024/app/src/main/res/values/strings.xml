@@ -1,0 +1,31 @@
+<?xmlns version = "1.0" encoding = "utf-8" ?>
+<resources>
+    <string name="app_name">あかねちん</string>
+
+    //第１画面　todoList用
+    <string name="tv_title">Todoリスト</string>
+    <string name="bt_new">新規</string>
+    <string name="menu_all">全件</string>
+    <string name="menu_completion">完了</string>
+    <string name="menu_not_completion">未完了</string>
+    
+    //第１画面　コンテキストメニュー用
+    <string name="menu_context_other">その他</string>
+
+    //第２画面　共通
+    <string name="bt_back">戻る</string>
+    <string name="tv_task">タスク名:</string>
+    <string name="tv_limit">期限:</string>
+    <string name="tv_detail">詳細</string>
+    <string name="bt_change">変更</string>
+
+    //第２画面　登録
+    <string name="tv_insert_title">タスク情報登録</string>
+    <string name="menu_insert">登録</string>
+
+    //第２画面　変更
+    <string name="tv_update_title">タスク情報編集</string>
+    <string name="menu_update">更新</string>
+    <string name="menu_delete">削除</string>
+
+</resources>

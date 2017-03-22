@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menuContextKeepIn"
+        android:title="@string/menu_keep_in"/>
+    <item
+        android:id="@+id/menuContextWashed"
+        android:title="@string/menu_washed"/>
+    <item
+        android:id="@+id/menuContextWashingBasket"
+        android:title="@string/menu_washing_basket"/>
+    <item
+        android:id="@+id/menuContextOther"
+        android:title="そのた"/>
+
+</menu>

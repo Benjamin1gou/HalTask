@@ -1,0 +1,19 @@
+<?xmlns version = "1.0" encoding = "utf-8"?>
+<resources>
+    <string name="app_name">ショップリスト</string>
+    <string name="tv_title_list">ショップリスト</string>
+    <string name="bt_new">新規</string>
+    
+    <string name="tv_title_insert">ショップ情報登録</string>
+    <string name="tv_title_edit">メモ内容編集</string>
+    <string name="tv_store_name">店名:</string>
+    <string name="tv_tel">TEL:</string>
+    <string name="tv_url">URL:</string>
+    <string name="tv_memo">メモ：</string>
+
+    <string name="bt_back">戻る</string>
+    <string name="bt_insert">登録</string>
+    <string name="bt_update">更新</string>
+    <string name="bt_delete">削除</string>
+    <string name="msg_input_store_name">店名を入力してください</string>
+</resources>

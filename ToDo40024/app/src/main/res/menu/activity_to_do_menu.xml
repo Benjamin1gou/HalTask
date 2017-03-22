@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app = "http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/ketuSet"
+        app:showAsAction="always"
+        android:icon="@android:drawable/ic_btn_speak_now"
+        android:title="ケツの設定"
+        />
+
+
+    <item
+        android:id="@+id/menuKetu"
+        app:showAsAction="always"
+        android:title="けつON">
+
+        <menu>
+            <item
+                android:id="@+id/menuKetuOn"
+                app:showAsAction="never"
+                android:title="けつON"/>
+            <item
+                android:id="@+id/menuKetuOff"
+                app:showAsAction="never"
+                android:title="けつOFF"/>
+
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/menuListOptionTitle"
+        app:showAsAction="always"
+        android:title="@string/menu_all">
+
+        <menu>
+            <item
+                android:id="@+id/menuAll"
+                app:showAsAction = "never"
+                android:title="@string/menu_all"/>
+
+            <item
+                android:id="@+id/menuCompletion"
+                app:showAsAction = "never"
+                android:title="@string/menu_completion"/>
+
+            <item
+                android:id="@+id/menuNotCompletion"
+                app:showAsAction = "never"
+                android:title="@string/menu_not_completion"/>
+        </menu>
+
+    </item>
+
+</menu>

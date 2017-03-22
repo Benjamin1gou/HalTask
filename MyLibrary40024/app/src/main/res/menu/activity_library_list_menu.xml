@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app = "http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/categoryIntent"
+        app:showAsAction="always"
+        android:icon="@android:drawable/ic_dialog_info"
+        android:title="カテゴリ登録"/>
+
+
+
+
+    <item
+        android:id="@+id/menuKetu"
+        app:showAsAction="always"
+        android:title="けつON">
+
+        <menu>
+            <item
+                android:id="@+id/menuKetuOn"
+                app:showAsAction="never"
+                android:title="けつON"/>
+            <item
+                android:id="@+id/menuKetuOff"
+                app:showAsAction="never"
+                android:title="けつOFF"/>
+
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/menuListOptionTitle"
+        app:showAsAction="always"
+        android:title="全て">
+
+        <menu>
+            <item
+                android:id="@+id/menuAll"
+                app:showAsAction = "never"
+                android:title="全て"/>
+            <item
+                android:id="@+id/menuKeepIn"
+                app:showAsAction = "never"
+                android:title="@string/menu_keep_in"/>
+
+            <item
+                android:id="@+id/menuWashed"
+                app:showAsAction = "never"
+                android:title="@string/menu_washed"/>
+
+            <item
+                android:id="@+id/menuWashingBasket"
+                app:showAsAction = "never"
+                android:title="@string/menu_washing_basket"/>
+        </menu>
+
+    </item>
+
+</menu>

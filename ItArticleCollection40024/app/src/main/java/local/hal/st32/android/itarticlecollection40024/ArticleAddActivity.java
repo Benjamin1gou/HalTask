@@ -64,6 +64,10 @@ public class ArticleAddActivity extends AppCompatActivity {
                 access.execute(title, url, comment);
 
                 break;
+
+            case android.R.id.home:
+                finish();
+                return true;
         }
         return super.onOptionsItemSelected(item);
     }

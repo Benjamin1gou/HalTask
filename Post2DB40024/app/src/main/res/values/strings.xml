@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Post2DB40024</string>
+    <string name="tv_lastname">姓：</string>
+    <string name="tv_firstname">名：</string>
+    <string name="tv_studentid">学籍番号：</string>
+    <string name="tv_seatno">出席番号</string>
+    <string name="tv_message">メッセージ</string>
+
+    <string name="dlg_title">登録されたもの</string>
+    <string name="dlg_name">入力された氏名:</string>
+    <string name="dlg_studentid">入力された学籍番号:</string>
+    <string name="dlg_seatno">入力された出席番号:</string>
+    <string name="dlg_states">判定:</string>
+    <string name="dlg_serialno">シリアル:</string>
+    <string name="dlg_timestampe">データ登録日時:</string>
+
+    <string name="flg_yes">成功</string>
+    <string name="flg_no">失敗</string>
+
+    <string name="bt_insert">登録</string>
+</resources>

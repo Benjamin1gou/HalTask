@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+    <!--全体-->
+    <string name="app_name">洗濯物管理</string>
+    <!--リスト用-->
+
+    <!--エディット用-->
+    <string name="tv_name">名前</string>
+    <string name="tv_category">種別</string>
+    <string name="tv_season">季節</string>
+    <string name="tv_purchase">登録日</string>
+    <string name="bt_registration">登録</string>
+
+    <!--フラグよう-->
+    <string name="menu_washing_basket">カゴ</string>
+    <string name="menu_keep_in">取込済</string>
+    <string name="menu_washed">洗濯済</string>
+    
+    <!--季節用-->
+    <string name="menu_spring">春</string>
+    <string name="menu_summer">夏</string>
+    <string name="menu_autumn">秋</string>
+    <string name="menu_winter">冬</string>
+
+    <!--カテゴリよう-->
+    <string name="tv_category_name">カテゴリ名</string>
+
+</resources>
+
